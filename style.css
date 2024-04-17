@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+}
+
+body{
+    margin-top: 135px;
+    background-image: none;
+}
+
+header{
+    background-color: #bfd6d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 135px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.logo{
+    display: flex;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .logo img{
+    margin-top: 1%;
+    height: 110px;
+    width: auto;
+}
+
+.LogoNombre{
+    margin-top: 2%;
+    color: white;
+    font-size: 30px;
+}
+ 
+.Universidad {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Universidad p {
+    color: white;
+    margin-top: 5px;
+}
+
+header .NavLinks{
+    color: white;
+    list-style: none;
+
+}
+
+header .NavLinks li{
+    margin-left: 50px;
+    display: inline-block;
+    padding: 4px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+header .NavLinks li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header .NavLinks li a:hover {
+    color: #333;
+}
+
+.Inicio{
+    margin-top: 10%;
+    padding: 20px;
+    margin: 100px;
+    display: inline-block;
+    text-align: left;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.Inicio p{
+    margin-top: 5%;
+}
+
+.Inicio img{
+    margin-top: 20px;
+    height: 300px;
+    width: auto;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.subtitulo{
+    margin: 100px;
+    margin-top: -100px;
+    margin-left: 120px;
+    display: inline-block;
+    margin-right: 400px;
+}
+
+h2{
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.subtitulo ul{
+    margin-top: 10px;
+}
+
+.subtitulo li{
+    margin-top: 2px;
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 2%;
+}
+
+.subtitulo img{
+    margin-top: 30px;
+    max-width: auto;
+    max-height: 250px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 17px;
+}
+
+.referencias {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.referencias h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.referencias ol {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+.referencias li {
+    margin-bottom: 5px;
+}
+
+.referencias a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.referencias a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #333;
+}
+
+footer p{
+    margin-top: 10px;
+    color: white;
+}
+
+.line{
+    margin-top: 30px;
+    background-color:  #bfd6d8;
+    height: 8px;
+    width: 100%;
+    border-radius: 15px;
+
+}
